@@ -28,6 +28,30 @@
       "created_at": "2026-11-17T22:48:46.718Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "99ed603e-c7d6-4c7b-a403-1b31ceb918e1",
+      "role": "user",
+      "content": "1\n// Error reading file: EISDIR: illegal operation on a directory, read",
+      "status": "cancelled",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-18T00:35:13.308Z",
+      "sender": "ios",
+      "is_cancelled": true
+    },
+    {
+      "id": "c12d1452-adad-452d-9250-bda6e9c0169f",
+      "role": "user",
+      "content": "1\n// Error reading file: EISDIR: illegal operation on a directory, readstop",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-18T00:35:26.005Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
